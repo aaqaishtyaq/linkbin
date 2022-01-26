@@ -1,6 +1,6 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "links"]
-title = "Links"
+title = "~/linkbin/links"
 author = "Aaqa Ishtyaq"
 tags = ["index"]
 +++

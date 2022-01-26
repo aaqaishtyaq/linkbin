@@ -1,6 +1,6 @@
 
 baseURL = "https://linkbin.aaqa.dev"
-title = "linkbin: bin to store links"
+title = "~/linkbin: bin to store links"
 author = "Aaqa Ishtyaq"
 copyright = "Aaqa Ishtyaq"
 paginate = 3
