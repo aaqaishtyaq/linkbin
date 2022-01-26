@@ -1,0 +1,19 @@
+
+baseURL = "https://linkbin.aaqa.dev"
+theme = "grol"
+title = "linkbin: bin to store links"
+author = "Aaqa Ishtyaq"
+copyright = "Aaqa Ishtyaq"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+[params]
+    dateFmt = "26.01.2022 22:50"
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/aaqaishtyaq"
+        weight = 1
