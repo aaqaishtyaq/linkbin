@@ -1,0 +1,35 @@
+#!/usr/bin/bash
+#
+# new_post(1) create new linkbin post
+
+new_post() {
+  local title
+  if [[ $1 == "" ]]; then
+    echo "[ERR] Filename required"
+    _usage
+    exit 1
+  fi
+
+  _title=$1
+  _date=$(date +%F)
+  _file="${_date}-${_title}.md"
+  cat <<EOF >>./content/links/${_file}
++++
+author = "Aaqa Ishtyaq"
+title = "${_title}"
+date = "${_date}"
+description = "${_title}"
+tags = [
+]
+categories = [
+]
++++
+EOF
+}
+
+_usage() {
+  printf "./new_post <file-name>\n"
+  printf "./new_post a-new-link\n"
+}
+
+new_post $@
